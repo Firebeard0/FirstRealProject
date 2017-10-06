@@ -54,14 +54,22 @@
 		FB50EB9C1F8800F200095FA3 /* FirstRealProject */ = {
 			isa = PBXGroup;
 			children = (
-				FB50EB9D1F8800F200095FA3 /* AppDelegate.swift */,
-				FB50EB9F1F8800F200095FA3 /* ViewController.swift */,
+				FB50EBAF1F88130D00095FA3 /* New Group */,
 				FB50EBA11F8800F200095FA3 /* Main.storyboard */,
 				FB50EBA41F8800F200095FA3 /* Assets.xcassets */,
 				FB50EBA61F8800F200095FA3 /* LaunchScreen.storyboard */,
 				FB50EBA91F8800F200095FA3 /* Info.plist */,
 			);
 			path = FirstRealProject;
+			sourceTree = "<group>";
+		};
+		FB50EBAF1F88130D00095FA3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				FB50EB9D1F8800F200095FA3 /* AppDelegate.swift */,
+				FB50EB9F1F8800F200095FA3 /* ViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
