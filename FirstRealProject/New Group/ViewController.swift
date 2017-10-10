@@ -13,15 +13,18 @@ class ViewController: UIViewController
     @IBOutlet weak var firstButton: UIButton!
     @IBAction func firstMethod(_ sender: UIButton)
     {
-       if (firstButton.backgroundColor == .orange)
-       {
-        firstButton.backgroundColor = .black
-        }
-        else
-       {
-        firstButton.backgroundColor = .orange
-        }
+//       if (firstButton.backgroundColor == .orange)
+//       {
+//        firstButton.backgroundColor = .black
+//        }
+//        else
+//       {
+//        firstButton.backgroundColor = .orange
+//        }
         view.backgroundColor = creatRandomColor()
+        firstButton.backgroundColor = creatRandomColor()
+        firstButton.setTitleColor(view.backgroundColor, for: .normal)
+        
     }
         private func creatRandomColor() -> UIColor
         {
