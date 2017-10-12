@@ -13,6 +13,7 @@
 		FB50EBA51F8800F200095FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB50EBA41F8800F200095FA3 /* Assets.xcassets */; };
 		FB50EBA81F8800F200095FA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB50EBA61F8800F200095FA3 /* LaunchScreen.storyboard */; };
 		FBE32C041F8FF58C0014AB5B /* SecondScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE32C031F8FF58C0014AB5B /* SecondScreenController.swift */; };
+		FBE32C071F8FF9E50014AB5B /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE32C061F8FF9E50014AB5B /* ColorTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB50EBA71F8800F200095FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB50EBA91F8800F200095FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBE32C031F8FF58C0014AB5B /* SecondScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenController.swift; sourceTree = "<group>"; };
+		FBE32C061F8FF9E50014AB5B /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FB50EB9C1F8800F200095FA3 /* FirstRealProject */ = {
 			isa = PBXGroup;
 			children = (
+				FBE32C051F8FF9B70014AB5B /* Model */,
 				FB50EBAF1F88130D00095FA3 /* New Group */,
 				FB50EBA11F8800F200095FA3 /* Main.storyboard */,
 				FB50EBA41F8800F200095FA3 /* Assets.xcassets */,
@@ -73,6 +76,14 @@
 				FBE32C031F8FF58C0014AB5B /* SecondScreenController.swift */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		FBE32C051F8FF9B70014AB5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBE32C061F8FF9E50014AB5B /* ColorTools.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 				FB50EBA01F8800F200095FA3 /* ViewController.swift in Sources */,
 				FB50EB9E1F8800F200095FA3 /* AppDelegate.swift in Sources */,
 				FBE32C041F8FF58C0014AB5B /* SecondScreenController.swift in Sources */,
+				FBE32C071F8FF9E50014AB5B /* ColorTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

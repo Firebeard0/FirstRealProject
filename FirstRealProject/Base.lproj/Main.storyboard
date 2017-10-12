@@ -55,6 +55,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="secondButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HpP-9h-nzg"/>
                                     <segue destination="dZ1-b8-IaY" kind="show" id="34y-r5-sR4"/>
                                 </connections>
                             </button>
@@ -64,6 +65,7 @@
                     </view>
                     <connections>
                         <outlet property="firstButton" destination="eMt-lL-Gyn" id="a2u-9a-8Ds"/>
+                        <outlet property="secondButon" destination="QPF-CG-Lpw" id="rHy-Ic-cjf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
